@@ -1,0 +1,29 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .invoice * {
+        visibility: visible;
+    }
+
+    .export-buttons * {
+        visibility: hidden;
+    }
+}
+
+#datepicker, #datepicker+.row {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.export-buttons {
+    text-align: right;
+}
+
+.modal-body button {
+    margin-top: 15px;
+}
+
+.modal-body textarea {
+    margin-top: 10px;
+}

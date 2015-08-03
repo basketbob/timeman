@@ -1,0 +1,23 @@
+.head, .head h1, .head h4, .head p {
+    text-align: center;
+}
+
+.head h4 {
+    color: #808080;
+}
+
+#featuresTab {
+    margin-top: 20px;
+}
+
+#featuresTab h3 {
+    font-size: 19px;
+}
+
+.head hr {
+    width: 100px;
+}
+
+#timer .row:first-child {
+    margin-top: 40px;
+}

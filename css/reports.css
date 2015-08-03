@@ -1,0 +1,137 @@
+.index {
+    width: 1vw;
+}
+
+.name_project {
+    width: 15vw;
+}
+
+.cost {
+    width: 1vw;
+}
+
+.duration {
+    width: 2vw;
+}
+
+.time {
+    width: 10vw;
+}
+
+.reports-top h3{
+    display: inline-block;
+    font-size: 1.65em;
+    line-height: 1.3em;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+.reports-top span {
+    color: #666;
+    font-weight: normal;
+    padding-left: 2px;
+}
+
+.end {
+    text-align: right;
+}
+
+.reports-summary .col-md-4 {
+    text-align: center;
+}
+
+.reports-summary h2 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+    line-height: 1em;
+    margin-bottom: 5px;
+}
+
+.reports-summary h3 {
+    font-size: 26px;
+    line-height: 28px;
+}
+
+.reports-summary .billable-percent .billable-percent-circle h3 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26px;
+    width: 82px;
+}
+
+.reports-summary .billable-percent .billable-percent-circle h3 span {
+    font-size: 12px;
+    line-height: 18px;
+    vertical-align: top;
+}
+
+.reports-summary .billable-percent .billable-percent-circle {
+    left: 0;
+    position: absolute;
+    top: -1px;
+}
+
+.reports-summary .billable-percent .billable-percent-info {
+    display: inline-block;
+    padding: 0 0 0 20px;
+    vertical-align: top;
+}
+
+.reports-summary .billable-percent .billable-percent-info ul span.billable-percent-key {
+    background: #41b419;
+    border-radius: 2px;
+    float: left;
+    height: 9px;
+    margin: 6px 6px 0 0;
+    text-indent: -5000px;
+    width: 9px;
+}
+
+.reports-summary .billable-percent .billable-percent-info ul span.billable-percent-key.key-unbillable {
+    background: #414753;
+}
+
+.reports-summary .billable-percent .billable-percent-info ul {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#svg circle {
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 1s linear;
+    stroke: #414753;
+    stroke-width: 1em;
+}
+#svg #bar {
+    stroke: #41b419;
+}
+#cont {
+    display: inline-block;
+    height: 92px;
+    width: 92px;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+}
+#cont span {
+    color: #f9ffff;
+    background-color: #313946;
+    position: absolute;
+    display: block;
+    height: 63px;
+    width: 63px;
+    left: 15%;
+    top: 15%;
+    border-radius: 50%;
+    line-height: 60px;
+    font-size: 1.5em;
+}
+
+.billable-percent-info ul {
+    text-align: left;
+}

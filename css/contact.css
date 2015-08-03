@@ -1,0 +1,15 @@
+.head, .head h1, .head h4, .head p {
+    text-align: center;
+}
+
+.head h4 {
+    color: #808080;
+}
+
+.form_head {
+    font-weight: 600;
+}
+
+hr {
+    width: 100px;
+}
