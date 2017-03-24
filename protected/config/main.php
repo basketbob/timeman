@@ -71,10 +71,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=mysql-102947.srv.hoster.ru;dbname=srv102947_timeman',
+			'connectionString' => '',
 			'emulatePrepare' => true,
-			'username' => 'srv102947_time',
-			'password' => 'CH9GWV2B',
+			'username' => '',
+			'password' => '',
 			'charset' => 'utf8',
 		),
 		
